@@ -35,7 +35,10 @@ if ($Offline) {
 }
 Push-Location $stationRoot
 try {
-    & tar.exe -a -cf $archive --exclude='__pycache__' --exclude='*.pyc' --exclude='.git' --exclude='*.part' @paths
+    $archiveOptions = @('-a', '-cf', $archive)
+    # Large model weights compress poorly. Store them directly for fast packaging/extraction.
+    if ($Offline) { $archiveOptions += @('--options', 'zip:compression=store') }
+    & tar.exe @archiveOptions --exclude='__pycache__' --exclude='*.pyc' --exclude='.git' --exclude='*.part' @paths
     if ($LASTEXITCODE -ne 0) { throw 'Packaging failed. The original installation is unchanged.' }
     Write-Host "Package ready: $archive"
     Write-Host 'No project database, user references, generated works, API tokens or machine settings included.'
