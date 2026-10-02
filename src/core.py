@@ -289,7 +289,9 @@ class Station:
         self.cancel.add(id)
         self.sql("UPDATE jobs SET state='cancelled' WHERE id=? AND state='queued'",(id,))
         if self.active==id and self.process:
-            request(self.engine_url+'/interrupt',{})
+            # A starting engine may not accept HTTP yet; the worker also checks the flag.
+            try: request(self.engine_url+'/interrupt',{},timeout=2)
+            except Exception: pass
         return {'ok':True}
 
     def worker(self):
@@ -302,6 +304,7 @@ class Station:
                 s=json.loads(job['body']); self.prepare(s['profile'])
                 if id in self.cancel: raise InterruptedError('已取消')
                 self.start_engine()
+                if id in self.cancel: raise InterruptedError('已取消')
                 graph=workflow(s,'station/'+id)
                 response=request(self.engine_url+'/prompt',{'prompt':graph,'client_id':'video-station'})
                 pid=response['prompt_id']; start=time.time()

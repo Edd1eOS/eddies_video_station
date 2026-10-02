@@ -10,8 +10,16 @@ $paths = @('Start Video Station.cmd', 'scripts', 'src', 'web', 'configs', 'tests
 if ($Offline) {
     if (-not (Test-Path (Join-Path $stationRoot '.runtime\python\python.exe'))) { throw 'Launch the workstation once before packaging.' }
     if (-not (Test-Path (Join-Path $stationRoot '.runtime\engine\ComfyUI_windows_portable\python_embeded\python.exe'))) { throw 'Prepare a model before packaging.' }
-    $paths += @('.runtime/python', '.runtime/engine')
     $manifest = Get-Content (Join-Path $stationRoot 'configs\models.json') -Raw | ConvertFrom-Json
+    $paths += '.runtime/python'
+    $engineArchive = Join-Path $stationRoot 'data\downloads\engine.7z'
+    if ((Test-Path $engineArchive) -and (Get-Item $engineArchive).Length -eq $manifest.engine.size -and (Get-FileHash $engineArchive -Algorithm SHA256).Hash.ToLowerInvariant() -eq $manifest.engine.sha256) {
+        # Carry the vendor archive instead of tens of thousands of unpacked files.
+        # First generation extracts it locally; no network or manual setup is needed.
+        $paths += 'data/downloads/engine.7z'
+    } else {
+        $paths += '.runtime/engine'
+    }
     $modelRoot = Join-Path $stationRoot 'data\models'
     $settings = Join-Path $stationRoot '.local\settings.json'
     if (Test-Path $settings) {

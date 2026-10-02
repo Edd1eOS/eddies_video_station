@@ -67,4 +67,11 @@ class CoreTests(unittest.TestCase):
             self.assertEqual(len(f['revision']),40)
             self.assertGreater(f['size'],0)
 
+    def test_cancel_during_engine_start(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            s=Station(tmp); s.active='starting'; s.process=object()
+            with patch('core.request',side_effect=ConnectionRefusedError):
+                self.assertTrue(s.cancel_job('starting')['ok'])
+            self.assertIn('starting',s.cancel)
+
 if __name__=='__main__': unittest.main()
