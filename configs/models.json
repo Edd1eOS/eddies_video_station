@@ -1,0 +1,14 @@
+{
+  "engine": {"version":"0.37.0", "url":"https://github.com/Comfy-Org/ComfyUI/releases/download/v0.37.0/ComfyUI_windows_portable_nvidia.7z", "sha256":"7805f634fab51f63a238aaf0cfe2a9833bb7c86ddfc8400a60919f44460d7d65", "size":1925204508},
+  "files": {
+    "wan13": {"repo":"Comfy-Org/Wan_2.1_ComfyUI_repackaged","revision":"123acf1cc74bccbb9bfff8ac1ee72edc08c2341d","path":"diffusion_models/wan2.1_t2v_1.3B_fp16.safetensors","size":2838303560,"sha256":"be531024cd9018cb5b48c40cfbb6a6191645b1c792eb8bf4f8c1c6e10f924dc5"},
+    "text": {"repo":"Comfy-Org/Wan_2.1_ComfyUI_repackaged","revision":"123acf1cc74bccbb9bfff8ac1ee72edc08c2341d","path":"text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors","size":6735906897,"sha256":"c3355d30191f1f066b26d93fba017ae9809dce6c627dda5f6a66eaa651204f68"},
+    "vae21": {"repo":"Comfy-Org/Wan_2.1_ComfyUI_repackaged","revision":"123acf1cc74bccbb9bfff8ac1ee72edc08c2341d","path":"vae/wan_2.1_vae.safetensors","size":253815318,"sha256":"2fc39d31359a4b0a64f55876d8ff7fa8d780956ae2cb13463b0223e15148976b"},
+    "wan5": {"repo":"Comfy-Org/Wan_2.2_ComfyUI_Repackaged","revision":"ee6f4a40737a995bf5818954cfce6d59443b0f04","path":"diffusion_models/wan2.2_ti2v_5B_fp16.safetensors","size":9999658848,"sha256":"456f901338bd9eadbded3828b819109a9b68e8a525ca5cf8d0049a69fcfeca1e"},
+    "vae22": {"repo":"Comfy-Org/Wan_2.2_ComfyUI_Repackaged","revision":"ee6f4a40737a995bf5818954cfce6d59443b0f04","path":"vae/wan2.2_vae.safetensors","size":1409400960,"sha256":"e40321bd36b9709991dae2530eb4ac303dd168276980d3e9bc4b6e2b75fed156"}
+  },
+  "profiles": [
+    {"id":"wan13","name":"Wan 2.1 · 轻量文生视频","description":"8GB 显存起步。输入文字生成短镜头，不接受首帧。","files":["wan13","text","vae21"],"license":"Apache-2.0","image":false},
+    {"id":"wan5","name":"Wan 2.2 · 文字 / 图片生成视频","description":"支持首帧参考，下载较大；8GB 使用低显存模式。","files":["wan5","text","vae22"],"license":"Apache-2.0","image":true}
+  ]
+}

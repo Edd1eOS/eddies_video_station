@@ -1,0 +1,1058 @@
+[
+  {
+    "category": "镜头运动",
+    "label": "固定镜头",
+    "text": "static camera",
+    "description": "画面保持稳定，主体在镜头内运动",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "镜头运动",
+    "label": "缓慢推进",
+    "text": "slow dolly in",
+    "description": "镜头逐渐接近主体",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "镜头运动",
+    "label": "缓慢拉远",
+    "text": "slow dolly out",
+    "description": "镜头后退，逐渐交代环境",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "镜头运动",
+    "label": "横向跟拍",
+    "text": "lateral tracking shot",
+    "description": "镜头从侧面跟随主体",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "镜头运动",
+    "label": "环绕拍摄",
+    "text": "orbiting camera",
+    "description": "围绕主体改变观察角度",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "镜头运动",
+    "label": "向上摇镜",
+    "text": "tilt up",
+    "description": "镜头视线逐渐向上",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "镜头运动",
+    "label": "向下摇镜",
+    "text": "tilt down",
+    "description": "镜头视线逐渐向下",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "镜头运动",
+    "label": "手持摄影",
+    "text": "handheld camera",
+    "description": "带有自然手持晃动",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "镜头运动",
+    "label": "航拍",
+    "text": "aerial shot",
+    "description": "从空中俯视环境",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "镜头运动",
+    "label": "平稳跟随",
+    "text": "smooth tracking shot",
+    "description": "镜头平稳地跟随动作",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "镜头运动",
+    "label": "变焦推进",
+    "text": "slow zoom in",
+    "description": "通过变焦放大主体",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "镜头运动",
+    "label": "第一人称",
+    "text": "first person perspective",
+    "description": "以角色视角观察",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "构图",
+    "label": "特写",
+    "text": "close-up",
+    "description": "突出面部或物体局部",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "构图",
+    "label": "极近特写",
+    "text": "extreme close-up",
+    "description": "强调非常细小的细节",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "构图",
+    "label": "中景",
+    "text": "medium shot",
+    "description": "同时展示人物动作和部分环境",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "构图",
+    "label": "全景",
+    "text": "wide shot",
+    "description": "展示主体与完整环境",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "构图",
+    "label": "超广角远景",
+    "text": "extreme wide shot",
+    "description": "环境占据画面主要部分",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "构图",
+    "label": "低机位",
+    "text": "low angle shot",
+    "description": "从下往上观察主体",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "构图",
+    "label": "俯视",
+    "text": "overhead shot",
+    "description": "从正上方观察",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "构图",
+    "label": "平视",
+    "text": "eye-level shot",
+    "description": "以平视角度观察",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "构图",
+    "label": "对称构图",
+    "text": "symmetrical composition",
+    "description": "左右保持视觉平衡",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "构图",
+    "label": "三分构图",
+    "text": "rule of thirds composition",
+    "description": "主体位于画面三分线附近",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "构图",
+    "label": "留白",
+    "text": "negative space",
+    "description": "为主体周围保留简洁空间",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "构图",
+    "label": "过肩镜头",
+    "text": "over-the-shoulder shot",
+    "description": "透过前景人物肩部看另一人",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "构图",
+    "label": "浅景深",
+    "text": "shallow depth of field",
+    "description": "主体清晰，前后景虚化",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "构图",
+    "label": "深景深",
+    "text": "deep depth of field",
+    "description": "前景到远景都相对清晰",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "构图",
+    "label": "居中构图",
+    "text": "centered composition",
+    "description": "把主体放在画面中央",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "灯光",
+    "label": "自然光",
+    "text": "natural lighting",
+    "description": "模拟真实环境中的光线",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "灯光",
+    "label": "柔光",
+    "text": "soft lighting",
+    "description": "阴影过渡柔和",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "灯光",
+    "label": "硬光",
+    "text": "hard lighting",
+    "description": "光影边缘鲜明",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "灯光",
+    "label": "逆光",
+    "text": "backlighting",
+    "description": "主要光源位于主体后方",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "灯光",
+    "label": "轮廓光",
+    "text": "rim lighting",
+    "description": "在主体边缘形成亮线",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "灯光",
+    "label": "侧光",
+    "text": "side lighting",
+    "description": "通过侧面光强调体积",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "灯光",
+    "label": "电影灯光",
+    "text": "cinematic lighting",
+    "description": "强调有层次的电影式照明",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "灯光",
+    "label": "黄金时刻",
+    "text": "golden hour lighting",
+    "description": "偏暖的日出或日落光线",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "灯光",
+    "label": "蓝色时刻",
+    "text": "blue hour lighting",
+    "description": "暮色中的冷蓝环境光",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "灯光",
+    "label": "霓虹灯",
+    "text": "neon lighting",
+    "description": "带有彩色发光招牌照明",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "灯光",
+    "label": "体积光",
+    "text": "volumetric light rays",
+    "description": "在雾气中看见光束",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "灯光",
+    "label": "烛光",
+    "text": "candlelight",
+    "description": "暖色微弱光线",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "灯光",
+    "label": "伦勃朗光",
+    "text": "Rembrandt lighting",
+    "description": "面部形成明暗层次和三角形亮区",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "灯光",
+    "label": "漫射天光",
+    "text": "diffused skylight",
+    "description": "阴天式均匀照明",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "灯光",
+    "label": "高调照明",
+    "text": "high-key lighting",
+    "description": "画面明亮，阴影较少",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "灯光",
+    "label": "低调照明",
+    "text": "low-key lighting",
+    "description": "大面积暗部，突出局部亮处",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "风格",
+    "label": "写实",
+    "text": "photorealistic",
+    "description": "偏向真实摄影质感",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "风格",
+    "label": "胶片质感",
+    "text": "film grain texture",
+    "description": "带有细微胶片颗粒",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "风格",
+    "label": "水彩",
+    "text": "watercolor illustration",
+    "description": "柔和色块和水彩笔触",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "风格",
+    "label": "油画",
+    "text": "oil painting style",
+    "description": "保留油画颜料笔触",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "风格",
+    "label": "赛璐璐动画",
+    "text": "cel animation",
+    "description": "干净线条和分区阴影",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "风格",
+    "label": "定格动画",
+    "text": "stop motion animation",
+    "description": "逐帧摆拍的动作质感",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "风格",
+    "label": "黏土风格",
+    "text": "clay animation style",
+    "description": "圆润黏土材质",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "风格",
+    "label": "低多边形",
+    "text": "low poly style",
+    "description": "简化几何面",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "风格",
+    "label": "黑白影像",
+    "text": "black and white photography",
+    "description": "仅保留明暗关系",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "风格",
+    "label": "复古",
+    "text": "vintage aesthetic",
+    "description": "具有旧时代的色彩和材质",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "风格",
+    "label": "极简",
+    "text": "minimalist design",
+    "description": "减少装饰和多余元素",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "风格",
+    "label": "超现实",
+    "text": "surreal imagery",
+    "description": "形成超越现实的视觉关系",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "风格",
+    "label": "纪录片质感",
+    "text": "documentary style",
+    "description": "自然、纪实式观察",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "风格",
+    "label": "手绘",
+    "text": "hand drawn illustration",
+    "description": "可见人工绘制线条",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "色彩",
+    "label": "暖色调",
+    "text": "warm color palette",
+    "description": "偏黄、橙和红",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "色彩",
+    "label": "冷色调",
+    "text": "cool color palette",
+    "description": "偏蓝、青和紫",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "色彩",
+    "label": "低饱和",
+    "text": "muted colors",
+    "description": "降低色彩鲜艳程度",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "色彩",
+    "label": "高饱和",
+    "text": "vibrant colors",
+    "description": "鲜明饱满的颜色",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "色彩",
+    "label": "粉彩",
+    "text": "pastel colors",
+    "description": "明亮柔和的浅色",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "色彩",
+    "label": "青橙配色",
+    "text": "teal and orange grading",
+    "description": "青色阴影与暖色高光",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "色彩",
+    "label": "单色配色",
+    "text": "monochromatic palette",
+    "description": "统一在同一色系",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "色彩",
+    "label": "高对比",
+    "text": "high contrast",
+    "description": "明暗差别更明显",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "色彩",
+    "label": "柔和对比",
+    "text": "soft contrast",
+    "description": "更温和的明暗关系",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "环境",
+    "label": "雨夜",
+    "text": "rainy night",
+    "description": "夜间降雨环境",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "环境",
+    "label": "街道反光",
+    "text": "wet street reflections",
+    "description": "湿润路面反射灯光",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "环境",
+    "label": "薄雾",
+    "text": "light atmospheric fog",
+    "description": "环境中有轻薄雾气",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "环境",
+    "label": "飘雪",
+    "text": "falling snow",
+    "description": "空中有雪花飘落",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "环境",
+    "label": "微风",
+    "text": "gentle breeze",
+    "description": "衣物、头发或树叶轻微摆动",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "环境",
+    "label": "夕阳",
+    "text": "sunset",
+    "description": "太阳低悬，色调偏暖",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "环境",
+    "label": "日出",
+    "text": "sunrise",
+    "description": "清晨初升阳光",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "环境",
+    "label": "室内",
+    "text": "interior scene",
+    "description": "场景位于建筑内部",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "环境",
+    "label": "森林",
+    "text": "forest environment",
+    "description": "树木环绕的环境",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "环境",
+    "label": "海边",
+    "text": "coastal setting",
+    "description": "海浪与海岸环境",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "环境",
+    "label": "城市",
+    "text": "urban environment",
+    "description": "城市街道与建筑",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "环境",
+    "label": "星空",
+    "text": "starry night sky",
+    "description": "可见星光的夜空",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "人物动作",
+    "label": "缓慢行走",
+    "text": "walking slowly",
+    "description": "人物以缓慢步伐前行",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "人物动作",
+    "label": "奔跑",
+    "text": "running",
+    "description": "人物快速移动",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "人物动作",
+    "label": "回头",
+    "text": "turning head back",
+    "description": "人物转头看向后方",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "人物动作",
+    "label": "微笑",
+    "text": "gentle smile",
+    "description": "自然轻微的笑容",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "人物动作",
+    "label": "抬头",
+    "text": "looking upward",
+    "description": "角色抬起视线",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "人物动作",
+    "label": "自然呼吸",
+    "text": "subtle breathing motion",
+    "description": "轻微胸肩运动",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "人物动作",
+    "label": "凝视镜头",
+    "text": "looking into camera",
+    "description": "人物看向观众",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "人物动作",
+    "label": "挥手",
+    "text": "waving a hand",
+    "description": "用手做招呼动作",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "人物动作",
+    "label": "转身",
+    "text": "turning around",
+    "description": "人物改变身体朝向",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "人物动作",
+    "label": "坐下",
+    "text": "sitting down",
+    "description": "人物从站立变为坐姿",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "人物动作",
+    "label": "舞蹈",
+    "text": "dancing",
+    "description": "身体随节奏运动",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "人物动作",
+    "label": "头发飘动",
+    "text": "hair moving in the wind",
+    "description": "风带动头发",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "材质与细节",
+    "label": "玻璃",
+    "text": "clear glass material",
+    "description": "透明表面与反射",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "材质与细节",
+    "label": "磨砂玻璃",
+    "text": "frosted glass",
+    "description": "散射透光的表面",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "材质与细节",
+    "label": "抛光金属",
+    "text": "polished metal",
+    "description": "光滑金属高光",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "材质与细节",
+    "label": "拉丝金属",
+    "text": "brushed metal",
+    "description": "细微方向性纹理",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "材质与细节",
+    "label": "丝绸",
+    "text": "silk fabric",
+    "description": "柔软、细腻的布料高光",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "材质与细节",
+    "label": "皮革",
+    "text": "leather texture",
+    "description": "可见皮革纹理",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "材质与细节",
+    "label": "木纹",
+    "text": "natural wood grain",
+    "description": "自然木材纹理",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "材质与细节",
+    "label": "水滴",
+    "text": "water droplets",
+    "description": "表面有细小水滴",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "材质与细节",
+    "label": "真实皮肤",
+    "text": "natural skin texture",
+    "description": "保留自然肤质细节",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "材质与细节",
+    "label": "精细纹理",
+    "text": "fine surface details",
+    "description": "强调表面细节",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "材质与细节",
+    "label": "柔软绒毛",
+    "text": "soft fur texture",
+    "description": "细柔毛发质感",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "运动与连续性",
+    "label": "慢动作",
+    "text": "slow motion",
+    "description": "动作以较慢速度呈现",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "运动与连续性",
+    "label": "流畅动作",
+    "text": "smooth natural motion",
+    "description": "运动衔接自然",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "运动与连续性",
+    "label": "延时摄影",
+    "text": "time lapse",
+    "description": "环境变化速度加快",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "运动与连续性",
+    "label": "连续镜头",
+    "text": "continuous single shot",
+    "description": "尽量保持单一连续镜头",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "运动与连续性",
+    "label": "保持服装",
+    "text": "consistent clothing throughout the shot",
+    "description": "希望镜头中服装保持一致；不是硬性锁定",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "运动与连续性",
+    "label": "保持外貌",
+    "text": "consistent facial appearance",
+    "description": "希望人物外貌稳定；不能保证身份完全一致",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "运动与连续性",
+    "label": "保持产品形状",
+    "text": "consistent product geometry",
+    "description": "希望物体轮廓不改变",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "运动与连续性",
+    "label": "轻微运动",
+    "text": "subtle motion",
+    "description": "降低动作幅度",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "运动与连续性",
+    "label": "清晰主体",
+    "text": "subject in sharp focus",
+    "description": "将视觉焦点放在主体",
+    "negative": false,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "画面闪烁",
+    "text": "flickering",
+    "description": "减少帧间亮度闪动",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "肢体变形",
+    "text": "deformed limbs",
+    "description": "减少不合理的肢体形状",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "多余手指",
+    "text": "extra fingers",
+    "description": "减少多余手指",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "面部扭曲",
+    "text": "distorted face",
+    "description": "减少面部形变",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "人物变化",
+    "text": "inconsistent identity",
+    "description": "减少人物外貌跳变",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "服装变化",
+    "text": "changing clothes",
+    "description": "减少服装无故变化",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "背景跳动",
+    "text": "unstable background",
+    "description": "减少背景不连续",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "镜头抖动",
+    "text": "camera shake",
+    "description": "减少不必要晃动",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "字幕",
+    "text": "subtitles",
+    "description": "避免生成字幕",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "水印",
+    "text": "watermark",
+    "description": "避免画面水印",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "文字乱码",
+    "text": "illegible text",
+    "description": "减少不可读文字",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "模糊",
+    "text": "blurry",
+    "description": "减少意外模糊",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "过曝",
+    "text": "overexposure",
+    "description": "减少高光过亮",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "欠曝",
+    "text": "underexposure",
+    "description": "减少暗部丢失",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "色带",
+    "text": "color banding",
+    "description": "减少渐变断层",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "压缩噪点",
+    "text": "compression artifacts",
+    "description": "减少块状压缩痕迹",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "塑料皮肤",
+    "text": "plastic skin",
+    "description": "减少过分光滑的皮肤",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "重复物体",
+    "text": "duplicated objects",
+    "description": "减少意外重复主体",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "错误透视",
+    "text": "incorrect perspective",
+    "description": "减少不合理空间关系",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "静止画面",
+    "text": "static image",
+    "description": "减少完全不动的结果",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "突然切镜",
+    "text": "abrupt cuts",
+    "description": "避免镜头中突然切换",
+    "negative": true,
+    "weight": 1
+  },
+  {
+    "category": "反向提示",
+    "label": "物体融化",
+    "text": "melting objects",
+    "description": "减少物体轮廓融化",
+    "negative": true,
+    "weight": 1
+  }
+]
